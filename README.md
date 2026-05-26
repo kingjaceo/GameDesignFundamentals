@@ -10,7 +10,8 @@ See the **solutions** folder for solutions.
    3. Clone this repo into your own Projects directory
 
 ## Tasks:
-**Game Engines, Scenes, and Nodes**
+
+### Game Engines, Scenes, and Nodes 
   1. Open Godot. *Import* the cloned repo as a project.
   2. There are several "views" or "panels", each of which is useful.
      - The **file tree viewer** (bottom left) shows the files in the project.
@@ -24,7 +25,7 @@ See the **solutions** folder for solutions.
   7. Resize the sprite by clicking one of the red circle handles in the **scene viewer**. Modulate the color of the sprite in the **inspector** by scrolling to the **Visibility** section and changing the **Modulate** field.
   8. Press Ctrl+S (Cmd+S on a Mac) to save the scene as **main.tscn**.
 
-Characters, Cameras, and Input:
+### Characters, Cameras, and Input:
   1. At the top of the **scene viewer**, press the plus to create a new scene. Select **2D Scene**. Rename the root node to "Player".
   2. Click the big **plus** in the top left of the scene tree editor. Search and select Sprite2D. Repeat with a Camera2D node.
   3. Load the Godot icon svg into the texture of the Sprite2D.
@@ -37,11 +38,9 @@ Characters, Cameras, and Input:
      - Read more here: [https://docs.godotengine.org/en/4.6/tutorials/inputs/inputevent.html]([https://docs.godotengine.org/en/4.6/tutorials/inputs/inputevent.html])
   10. Press play and test your game!
 
-Key Questions:
+**Key Questions:**
   - Can you give an example of an object? What about something that isn't an object?
   - Can you explain what a scene is?
   - Can you give an example of a property? What about something that isn't a property?
   - What did you have to change in the **_process** function get what you want?
   - How do you move the player up vs down? Why?
-
-Good luck! Email me if you have any questions!
