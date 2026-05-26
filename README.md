@@ -42,3 +42,5 @@ Characters, Cameras, and Input:
      - Can you give an example of a property? What about something that isn't a property?
      - What did you have to change in the **_process** function get what you want?
      - How do you move the player up vs down? Why?
+
+Good luck! Email me if you have any questions!
