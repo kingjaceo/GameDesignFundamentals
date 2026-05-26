@@ -36,9 +36,8 @@ Characters, Cameras, and Input:
   9. Edit the script to include handling for down, left, and right (just copy the code for handling "up").
      - Read more here: [https://docs.godotengine.org/en/4.6/tutorials/inputs/inputevent.html]([https://docs.godotengine.org/en/4.6/tutorials/inputs/inputevent.html])
   10. Press play and test your game!
-  11. Key Questions:
-     - Read more here: [https://docs.godotengine.org/en/4.6/tutorials/inputs/inputevent.html]([https://docs.godotengine.org/en/4.6/tutorials/inputs/inputevent.html])
 
+Key Questions:
      - Can you give an example of an object? What about something that isn't an object?
      - Can you explain what a scene is?
      - Can you give an example of a property? What about something that isn't a property?
