@@ -34,11 +34,11 @@ Characters, Cameras, and Input:
   7. Press the play button in the top right. Use the up arrow to move the player. Exit out.
   8. Click back to the Player scene. Click the script icon attached to the root Player node to begin editing the script.
   9. Edit the script to include handling for down, left, and right (just copy the code for handling "up").
-    - Read more here: [https://docs.godotengine.org/en/4.6/tutorials/inputs/inputevent.html]([https://docs.godotengine.org/en/4.6/tutorials/inputs/inputevent.html])
+     - Read more here: [https://docs.godotengine.org/en/4.6/tutorials/inputs/inputevent.html]([https://docs.godotengine.org/en/4.6/tutorials/inputs/inputevent.html])
   10. Press play and test your game!
   11. **Key Questions:**
-    - Can you give an example of an object? What about something that isn't an object?
-    - Can you explain what a scene is?
-    - Can you give an example of a property? What about something that isn't a property?
-    - What did you have to change in the **_process** function get what you want?
-    - How do you move the player up vs down? Why?
+     - Can you give an example of an object? What about something that isn't an object?
+     - Can you explain what a scene is?
+     - Can you give an example of a property? What about something that isn't a property?
+     - What did you have to change in the **_process** function get what you want?
+     - How do you move the player up vs down? Why?
