@@ -1,0 +1,7 @@
+extends Node2D
+
+var speed: float = 100.0
+
+func _process(delta: float) -> void:
+	if Input.is_action_pressed("ui_up"):
+		position.y -= speed * delta
