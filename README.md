@@ -38,10 +38,10 @@ Characters, Cameras, and Input:
   10. Press play and test your game!
 
 Key Questions:
-     - Can you give an example of an object? What about something that isn't an object?
-     - Can you explain what a scene is?
-     - Can you give an example of a property? What about something that isn't a property?
-     - What did you have to change in the **_process** function get what you want?
-     - How do you move the player up vs down? Why?
+  - Can you give an example of an object? What about something that isn't an object?
+  - Can you explain what a scene is?
+  - Can you give an example of a property? What about something that isn't a property?
+  - What did you have to change in the **_process** function get what you want?
+  - How do you move the player up vs down? Why?
 
 Good luck! Email me if you have any questions!
