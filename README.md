@@ -14,8 +14,11 @@ See the **solutions** folder for solutions.
   1. Open Godot. *Import* the cloned repo as a project.
   2. There are several "views" or "panels", each of which is useful.
 	* The **file tree viewer** (bottom left) shows the files in the project.
+	
 	* The **scene tree editor** (top left) shows the current **scene**: a **scene** can be thought of as a *composition* of *objects*. In Godot, *objects* are called *nodes*. The **scene viewer** (center) shows the current scene.
+	
 	* The **inspector** (right) allows you to edit the properties of nodes.
+	
   3. Open **main.tscn**. This is a **scene**, a composable object composed of objects.
   4. You should see the **scene tree** in the top left and the **scene** itself in the center.
   5. Click the **Sprite2D** node in the scene tree. Notice the **inspector** on the right.
