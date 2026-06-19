@@ -26,7 +26,7 @@ See the **solutions** folder for solutions.
   7. Resize the sprite by clicking one of the red circle handles in the **scene viewer**. Modulate the color of the sprite in the **inspector** by scrolling to the **Visibility** section and changing the **Modulate** field.
   8. Press Ctrl+S (Cmd+S on a Mac) to save the scene as **main.tscn**.
 
-Characters, Cameras, and Input:
+**Characters, Cameras, and Input:**
   1. At the top of the **scene viewer**, press the plus to create a new scene. Select **2D Scene**. Rename the root node to "Player".
   2. Click the big **plus** in the top left of the scene tree editor. Search and select Sprite2D. Repeat with a Camera2D node.
   3. Load the Godot icon svg into the texture of the Sprite2D.
@@ -44,3 +44,27 @@ Characters, Cameras, and Input:
 	* Can you give an example of a property? What about something that isn't a property?
 	* What did you have to change in the **_process** function get what you want?
 	* How do you move the player up vs down? Why?
+
+**Tilemaps:**
+   0. (optional) Find a free tile sheet online.
+   1. Add a TileMapLayer node to the main scene. Make sure it is ABOVE the player in the scene tree.
+   2. Select the TileMapLayer node in the scene tree. Find the "Tile Set" property in the Inspector. Click the field to add a new TileSet.
+   3. Click the new TileSet in the Inspector to expand its properties. Change the "Tile Size" to match the size of your tiles.
+   4. At the bottom of the Engine, youll see TileMap and TileSet tabs. Click the TileSet tab.
+   5. Drag your tile sheet into the sub-window on the left.Let the editor automatically create tiles. You should see the tile sheet divided into tiles.
+   6. Click the TileMap tab and switch to 2D view at the top.
+   7. Select the Pencil option and any tile. Start drawing tiles on the scene!
+
+**Collisions:**
+   1. Select the TileMapLayer, and in the Inspector, expand "Physics Layers" and click Add Element.
+   2. Back in the TileSet tab at the bottom, select "Paint" and select Physics Layer 0. Paint any tiles you want to be "Walls".
+   3. Go draw walls.
+   4. In the Player scene, change the root node to a CharacterBody2D.
+   5. We now need to change the script substantially to use physics, rather than directly moving the player. Instead of changing *position*, we will set *velocity*, call **move_and_slide()**, and reset *velocity* back to zero.
+   6. If you did everything right, you should be able to move around inside your tilemap, but you won't be able to go through walls!
+
+**Basic AI:**
+   1. Create a new Scene called "Enemy" or whatever you want. It should be a CharacterBody2D so that it obeys physics.
+   2. (optional) Find a sprite for your enemy.
+   3. Set up the sprite, the collision shape, and an empty script for behavior.
+   4. The script will work like this: the enemy moves up for 3 seconds then down for 3 seconds.

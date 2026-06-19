@@ -3,10 +3,17 @@
 [ext_resource type="Script" uid="uid://hl26cqi8e0ll" path="res://solutions/player.gd" id="1_775wd"]
 [ext_resource type="Texture2D" uid="uid://b7ng1uin2t658" path="res://icon.svg" id="2_nkdhc"]
 
-[node name="Player" type="Node2D" unique_id=2128159437]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qwppn"]
+size = Vector2(129, 130)
+
+[node name="Player" type="CharacterBody2D" unique_id=1035241828]
 script = ExtResource("1_775wd")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=236410300]
 texture = ExtResource("2_nkdhc")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=365448612]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1398535505]
+position = Vector2(-0.5, 0)
+shape = SubResource("RectangleShape2D_qwppn")
