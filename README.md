@@ -10,14 +10,13 @@ See the **solutions** folder for solutions.
    3. Clone this repo into your own Projects directory
 
 ## Tasks:
-**Game Engines, Scenes, and Nodes**
+
+**Game Engines, Scenes, and Nodes:**
   1. Open Godot. *Import* the cloned repo as a project.
   2. There are several "views" or "panels", each of which is useful.
-	* The **file tree viewer** (bottom left) shows the files in the project.
-	
-	* The **scene tree editor** (top left) shows the current **scene**: a **scene** can be thought of as a *composition* of *objects*. In Godot, *objects* are called *nodes*. The **scene viewer** (center) shows the current scene.
-	
-	* The **inspector** (right) allows you to edit the properties of nodes.
+	 - The **file tree viewer** (bottom left) shows the files in the project.
+	 - The **scene tree editor** (top left) shows the current **scene**: a **scene** can be thought of as a *composition* of *objects*. In Godot, *objects* are called *nodes*. The **scene viewer** (center) shows the current scene.
+	 - The **inspector** (right) allows you to edit the properties of nodes.
 	
   3. Open **main.tscn**. This is a **scene**, a composable object composed of objects.
   4. You should see the **scene tree** in the top left and the **scene** itself in the center.
@@ -36,7 +35,7 @@ See the **solutions** folder for solutions.
   7. Press the play button in the top right. Use the up arrow to move the player. Exit out.
   8. Click back to the Player scene. Click the script icon attached to the root Player node to begin editing the script.
   9. Edit the script to include handling for down, left, and right (just copy the code for handling "up").
-	* Read more here: [https://docs.godotengine.org/en/4.6/tutorials/inputs/inputevent.html]([https://docs.godotengine.org/en/4.6/tutorials/inputs/inputevent.html])
+	 - Read more here: [https://docs.godotengine.org/en/4.6/tutorials/inputs/inputevent.html]([https://docs.godotengine.org/en/4.6/tutorials/inputs/inputevent.html])
   10. Press play and test your game!
   11. **Key Questions:**
 	* Can you give an example of an object? What about something that isn't an object?
